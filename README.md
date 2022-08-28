@@ -22,7 +22,7 @@ These are the steps I followed:
 
 ## Paths:
 
-| verbs| Recursos | controlador y acción| 
+| verbs| resources | controllers y actions| 
 | get | bienvenida | home#index |
 | get| articles/new | articles#new| 
 | post| articles | articles#create| 
