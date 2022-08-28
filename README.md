@@ -22,7 +22,6 @@ These are the steps I followed:
 
 ## Paths:
 
-| verbs| resources | controllers y actions| 
 | get | bienvenida | home#index |
 | get| articles/new | articles#new| 
 | post| articles | articles#create| 
