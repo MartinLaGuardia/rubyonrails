@@ -1,0 +1,25 @@
+
+<h1> 
+    Hello Leading Dev! 
+</h1>
+
+<p>
+My goal is to start a career as a Jr. web developer 
+and use my previous knowledge to drive the projects 
+I participate in.
+</p>
+
+<%= form_with(model: @article, local: true) do |form| %> 
+    
+    <div>
+     <%=form.label :title %>
+     <%=form.text_field :title %>
+    </div>
+
+<hr>
+
+    <div>
+    <%= form.submit %>
+    </div>
+
+<%end%>
